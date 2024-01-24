@@ -29,7 +29,7 @@ const RisultatiMeteo = ({city}) => {
         </div>
         </div>
         {/* Sezione per visualizzare informazioni dettagliate come temperatura massima, temperatura minima, umidità e vento */}
-        <div className=" d-flex my-4 justify-content-around bg-light bg-opacity-25 rounded-5 km/h">
+        <div className=" d-flex my-4 justify-content-around bg-light bg-opacity-25 rounded-5 km/h p-2">
             <div className="mx-3">Temp max:<br/> 
             {weather.main.temp_max}°C <FaTemperatureHigh /></div>
             <div className="mx-3">Temp min:<br/> 

@@ -7,6 +7,7 @@ import Favourites from "./components/Favourites";
 
 function App() {
   return (
+   
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainSearch />} />
@@ -14,6 +15,7 @@ function App() {
         <Route path="/favourites" element={<Favourites />} />
       </Routes>
     </BrowserRouter >
+ 
   );
 }
 
