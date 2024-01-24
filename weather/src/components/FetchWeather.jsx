@@ -61,11 +61,11 @@ function FetchWeather() {
           setCity={setCity}
           
           />
+      </Container>
           {/* Sezione per visualizzare i risultati meteorologici */}
-      </Container>
-      <Container className="d-flex justify-content-center " >
+      <div className="d-flex justify-content-center " >
         <RisultatiMeteo city={city} />
-      </Container>
+      </div>
     </>
   );
 }

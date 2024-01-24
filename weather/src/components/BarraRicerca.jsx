@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 
 const BarraRicerca = ({ city, setCity, handleSearch }) => {
-  const img = "https://cdn.icon-icons.com/icons2/2505/PNG/512/sunny_weather_icon_150663.png"
+  // const img = "https://cdn.icon-icons.com/icons2/2505/PNG/512/sunny_weather_icon_150663.png"
   return (
     <>
       <Navbar
@@ -13,12 +13,12 @@ const BarraRicerca = ({ city, setCity, handleSearch }) => {
         className="rounded-3 justify-content-center "
         
       >
-        <img
+        {/* <img
           src = {img}
             width="70"
             height="70"
             className=""
-          />
+          /> */}
 
         <Form className="d-flex mx-3 ">
           <Form.Control
